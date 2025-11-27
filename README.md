@@ -12,7 +12,7 @@
 
 <div align="center">
   
-### 👨‍💻 Sobre Mí
+### 💠 Perfil Profesional
 
 <table align="center">
 <tr>
@@ -24,11 +24,11 @@ En mi perfil encontrarás proyectos que combinan la robustez del desarrollo back
 
 * 🔭 **Proyectos:** Capstone (Django) & Desarrollo de Juegos en Python.
 * 🧠 **Intereses:** Deep Learning, Minería de Datos y Arquitectura de Software.
-* ⚡ **Stack:** Python, Java, Oracle SQL.
+* ⚡ **Stack Principal:** Python, Java, Oracle SQL.
 
 </td>
 <td width="40%" align="center">
-  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="130" alt="Robot Icon"/>
+  <img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="100" alt="Tech Icon"/>
 </td>
 </tr>
 </table>
@@ -37,11 +37,11 @@ En mi perfil encontrarás proyectos que combinan la robustez del desarrollo back
 
 <br>
 
-<h3 align="center">🛠️ Arsenale Tecnológico</h3>
+<h3 align="center">⚙️ Arquitectura & Herramientas</h3>
 
 <div align="center">
 
-| **IA & Data** | **Backend & Lenguajes** | **Herramientas** |
+| **IA & Data** | **Backend & Lenguajes** | **Infraestructura** |
 |:---:|:---:|:---:|
 | ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white) | ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) | ![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white) |
 | ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white) | ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white) | ![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white) |
@@ -51,7 +51,7 @@ En mi perfil encontrarás proyectos que combinan la robustez del desarrollo back
 
 <br>
 
-<h3 align="center">📊 Métricas de GitHub</h3>
+<h3 align="center">📈 Métricas de Actividad</h3>
 
 <div align="center">
   <a href="https://github.com/Brasther">
@@ -64,10 +64,9 @@ En mi perfil encontrarás proyectos que combinan la robustez del desarrollo back
 </div>
 
 <br>
-<br>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Brasther&theme=tokyonight&hide_border=true&background=1a1b27" alt="streak graph" />
+  <img src="https://streak-stats.demolab.com/?user=Brasther&theme=tokyonight&hide_border=true&background=1a1b27" alt="streak graph" />
 </div>
 
 <br>
