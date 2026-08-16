@@ -52,7 +52,7 @@
 <table align="center" width="100%">
 <tr>
 <td align="center" valign="top" width="50%">
-  <samp><b>📚 AulaTrack</b> · Capstone </samp>
+  <samp><b>📚 AulaTrack</b> · Capstone</samp>
   <br/>
   <sub>Digitalización del libro de clases de un colegio: gestión de roles, cursos, listas de asistencia y notas. Proyecto de titulación en equipo.</sub>
   <br/><br/>
@@ -63,9 +63,9 @@
   </samp>
 </td>
 <td align="center" valign="top" width="50%">
-  <samp><b>👕 AnyShirt</b> · Práctica Profesional 2026</samp>
+  <samp><b><a href="https://anyshirt.cl">👕 AnyShirt</a></b> · Práctica Profesional 2025</samp>
   <br/>
-  <sub>E-commerce de poleras personalizadas con personalización DTF y diseño 3D. Desarrollo completo en solitario: frontend y backend.</sub>
+  <sub>E-commerce de poleras personalizadas con personalización DTF y diseño 3D. Desarrollo completo en solitario: frontend y backend. En producción en <a href="https://anyshirt.cl">anyshirt.cl</a>.</sub>
   <br/><br/>
   <samp>
     <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" />
@@ -145,7 +145,6 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Ingeniero_en_Inform%C3%A1tica-Duoc_UC_2026-22d3ee?style=for-the-badge&logo=readthedocs&logoColor=white" />
   <img src="https://img.shields.io/badge/Especializaci%C3%B3n-Ciencia_de_Datos-a78bfa?style=for-the-badge&logo=scikitlearn&logoColor=white" />
-  <img src="https://img.shields.io/badge/Nota_de_Titulaci%C3%B3n-5.5_/_7.0-34d399?style=for-the-badge" />
 </p>
 
 <p align="center"><samp>Módulos certificados por Duoc UC</samp></p>
