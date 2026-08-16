@@ -33,7 +33,6 @@
   <samp>
     🎯 <b>Especialización en Ciencia de Datos</b> (certificado)<br/>
     💼 Full Stack: <b>Django / Laravel + React</b><br/>
-    🏆 Titulación 5,5 · Capstone 6,5 · Deep Learning 6,6<br/>
     🧠 Intereses: <b>Deep Learning & Minería de Datos</b><br/>
     ⚡ Stack: <b>Python · PHP · Java · Oracle SQL</b>
   </samp>
@@ -53,7 +52,7 @@
 <table align="center" width="100%">
 <tr>
 <td align="center" valign="top" width="50%">
-  <samp><b>📚 AulaTrack</b> · Capstone (nota 6,5)</samp>
+  <samp><b>📚 AulaTrack</b> · Capstone </samp>
   <br/>
   <sub>Digitalización del libro de clases de un colegio: gestión de roles, cursos, listas de asistencia y notas. Proyecto de titulación en equipo.</sub>
   <br/><br/>
@@ -64,7 +63,7 @@
   </samp>
 </td>
 <td align="center" valign="top" width="50%">
-  <samp><b>👕 AnyShirt</b> · Práctica Profesional 2025</samp>
+  <samp><b>👕 AnyShirt</b> · Práctica Profesional 2026</samp>
   <br/>
   <sub>E-commerce de poleras personalizadas con personalización DTF y diseño 3D. Desarrollo completo en solitario: frontend y backend.</sub>
   <br/><br/>
