@@ -39,7 +39,7 @@
   </samp>
 </td>
 <td align="center" width="50%">
-  <img width="470" src="https://github-readme-stats.vercel.app/api?username=Brasther&show_icons=true&theme=transparent&bg_color=0d1117&title_color=22d3ee&text_color=94a3b8&icon_color=a78bfa&ring_color=22d3ee&border_color=30363d&border_radius=15&include_all_commits=true&count_private=true&custom_title=%F0%9F%93%8A_ESTAD%C3%8DSTICAS" alt="stats" />
+  <img width="470" src="https://gh-readme-stats.vercel.app/api?username=Brasther&show_icons=true&theme=transparent&bg_color=0d1117&title_color=22d3ee&text_color=94a3b8&icon_color=a78bfa&ring_color=22d3ee&border_color=30363d&border_radius=15&include_all_commits=true&count_private=true&custom_title=%F0%9F%93%8A_ESTAD%C3%8DSTICAS" alt="stats" />
 </td>
 </tr>
 </table>
@@ -106,18 +106,18 @@
 <table align="center" width="100%">
 <tr>
 <td align="center" width="50%">
-  <img width="470" src="https://github-readme-stats.vercel.app/api/pin/?username=Brasther&repo=Flutter_Shop&theme=transparent&bg_color=0d1117&title_color=22d3ee&text_color=94a3b8&icon_color=a78bfa&border_color=30363d&border_radius=15" />
+  <img width="470" src="https://gh-readme-stats.vercel.app/api/pin/?username=Brasther&repo=Flutter_Shop&theme=transparent&bg_color=0d1117&title_color=22d3ee&text_color=94a3b8&icon_color=a78bfa&border_color=30363d&border_radius=15" />
 </td>
 <td align="center" width="50%">
-  <img width="470" src="https://github-readme-stats.vercel.app/api/pin/?username=Brasther&repo=Poyecto-Rocket-2.0-Django&theme=transparent&bg_color=0d1117&title_color=22d3ee&text_color=94a3b8&icon_color=a78bfa&border_color=30363d&border_radius=15" />
+  <img width="470" src="https://gh-readme-stats.vercel.app/api/pin/?username=Brasther&repo=Poyecto-Rocket-2.0-Django&theme=transparent&bg_color=0d1117&title_color=22d3ee&text_color=94a3b8&icon_color=a78bfa&border_color=30363d&border_radius=15" />
 </td>
 </tr>
 <tr>
 <td align="center" width="50%">
-  <img width="470" src="https://github-readme-stats.vercel.app/api/pin/?username=Brasther&repo=chatBotWhatsapp-01&theme=transparent&bg_color=0d1117&title_color=22d3ee&text_color=94a3b8&icon_color=a78bfa&border_color=30363d&border_radius=15" />
+  <img width="470" src="https://gh-readme-stats.vercel.app/api/pin/?username=Brasther&repo=chatBotWhatsapp-01&theme=transparent&bg_color=0d1117&title_color=22d3ee&text_color=94a3b8&icon_color=a78bfa&border_color=30363d&border_radius=15" />
 </td>
 <td align="center" width="50%">
-  <img width="470" src="https://github-readme-stats.vercel.app/api/pin/?username=Brasther&repo=Prueba-render&theme=transparent&bg_color=0d1117&title_color=22d3ee&text_color=94a3b8&icon_color=a78bfa&border_color=30363d&border_radius=15" />
+  <img width="470" src="https://gh-readme-stats.vercel.app/api/pin/?username=Brasther&repo=Prueba-render&theme=transparent&bg_color=0d1117&title_color=22d3ee&text_color=94a3b8&icon_color=a78bfa&border_color=30363d&border_radius=15" />
 </td>
 </tr>
 </table>
@@ -144,9 +144,9 @@
 <h3 align="center"><samp>🎓 EDUCACIÓN & CERTIFICACIONES</samp></h3>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Ingeniero_en_Informática-Duoc_UC_2026-22d3ee?style=for-the-badge&logo=readthedocs&logoColor=white" />
-  <img src="https://img.shields.io/badge/Especialización-Ciencia_de_Datos-a78bfa?style=for-the-badge&logo=scikitlearn&logoColor=white" />
-  <img src="https://img.shields.io/badge/Nota_de_Titulación-5.5_/_7.0-34d399?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Ingeniero_en_Inform%C3%A1tica-Duoc_UC_2026-22d3ee?style=for-the-badge&logo=readthedocs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Especializaci%C3%B3n-Ciencia_de_Datos-a78bfa?style=for-the-badge&logo=scikitlearn&logoColor=white" />
+  <img src="https://img.shields.io/badge/Nota_de_Titulaci%C3%B3n-5.5_/_7.0-34d399?style=for-the-badge" />
 </p>
 
 <p align="center"><samp>Módulos certificados por Duoc UC</samp></p>
@@ -210,7 +210,7 @@
 <table align="center" width="100%">
 <tr>
 <td align="center" width="50%">
-  <img width="470" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Brasther&layout=compact&theme=transparent&bg_color=0d1117&title_color=22d3ee&text_color=94a3b8&border_color=30363d&border_radius=15&langs_count=6&custom_title=%F0%9F%92%BB_LENGUAJES" alt="langs" />
+  <img width="470" src="https://gh-readme-stats.vercel.app/api/top-langs/?username=Brasther&layout=compact&theme=transparent&bg_color=0d1117&title_color=22d3ee&text_color=94a3b8&border_color=30363d&border_radius=15&langs_count=6&custom_title=%F0%9F%92%BB_LENGUAJES" alt="langs" />
 </td>
 <td align="center" width="50%">
   <img width="470" src="https://streak-stats.demolab.com/?user=Brasther&theme=transparent&background=0D1117&ring=22D3EE&fire=FB8C00&currStreakNum=FFFFFF&sideNums=22D3EE&currStreakLabel=22D3EE&sideLabels=94A3B8&dates=94A3B8&stroke=30363D&border_radius=15" alt="streak" />
@@ -227,7 +227,9 @@
 <br/>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Brasther&theme=onedark&no-frame=true&margin-w=12&column=7&row=1" alt="trophies" />
+  <img src="https://img.shields.io/badge/Disponible_para_trabajo-S%C3%AD-2ea043?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Ubicaci%C3%B3n-Santiago%2C_Chile-a78bfa?style=for-the-badge&logo=googlemaps&logoColor=white" />
+  <img src="https://img.shields.io/badge/Idiomas-Espa%C3%B1ol_%E2%80%A2_Ingl%C3%A9s_Intermedio_Alto-22d3ee?style=for-the-badge" />
 </div>
 
 <br/>
