@@ -1,31 +1,14 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=200&section=header&text=Sebasti%C3%A1n%20Salamanca&fontSize=60&fontAlignY=32&animation=fadeIn&desc=Ingeniero%20en%20Inform%C3%A1tica%20%7C%20IA%20%26%20Backend&descAlignY=58&descSize=22&fontColor=ffffff" alt="Header" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=160&section=header&text=Sebasti%C3%A1n%20Salamanca&fontSize=55&fontAlignY=35&animation=fadeIn&desc=Ingeniero%20en%20Inform%C3%A1tica%20%7C%20IA%20%26%20Backend&descAlignY=60&descSize=20&fontColor=ffffff" alt="Header" />
 </div>
 
 <div align="center">
   <a href="https://github.com/Brasther">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=22D3EE&center=true&vCenter=true&width=650&lines=Desarrollador+Backend+Python+%26+Django;Especialista+en+Deep+Learning+%26+IA;Construyendo+software+limpio+y+escalable;Bienvenido+a+mi+portafolio+digital" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=22D3EE&center=true&vCenter=true&width=600&lines=Desarrollador+Backend+Python+%26+Django;Especialista+en+Deep+Learning+%26+IA;Construyendo+software+limpio+y+escalable" alt="Typing SVG" />
   </a>
 </div>
 
 <br/>
-
-<div align="center">
-
-```console
-┌───────────────────────────────────────────────┐
-│  $ whoami                                     │
-│  → Sebastián Salamanca · Brasther             │
-│  $ cat stack.txt                              │
-│  → Python · Django · Java · Oracle SQL        │
-│  $ cat intereses.txt                          │
-│  → Deep Learning · Minería de Datos · IA      │
-│  $ ./estado.sh                                │
-│  → Estudiante de término · Duoc UC            │
-└───────────────────────────────────────────────┘
-```
-
-</div>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Brasther&label=Visitas+al+perfil&color=22d3ee&style=flat-square" alt="visitas" />
@@ -35,33 +18,56 @@
 
 <br/>
 
-<h3 align="center"><samp>🚀 SOBRE MÍ</samp></h3>
+<!-- ==================== BENTO GRID ==================== -->
 
-<div align="center">
-
-<table align="center">
+<table align="center" width="100%">
 <tr>
-<td width="70%" valign="center">
-
-¡Hola! Soy **Sebastián**, estudiante de término de **Ingeniería en Informática** en Duoc UC (Chile).
-
-En mi perfil encontrarás proyectos que combinan la robustez del desarrollo backend con la innovación de la **Inteligencia Artificial**. Me apasiona construir software limpio, eficiente y escalable.
-
-- 🔭 **Trabajando en:** Capstone con Django & juegos en Python
-- 🌱 **Aprendiendo:** FastAPI, Docker y ML en producción
-- 🧠 **Intereses:** Deep Learning, Minería de Datos y Arquitectura de Software
-- ⚡ **Stack principal:** Python · Java · Oracle SQL
-
+<td align="center" valign="center" width="50%">
+  <samp><b>👤 SOBRE MÍ</b></samp>
+  <br/><br/>
+  <sub>Estudiante de término de Ingeniería en Informática · Duoc UC 🇨🇱</sub>
+  <br/><br/>
+  <samp>
+    🔭 <b>Capstone</b> con Django & juegos en Python<br/>
+    🌱 Aprendiendo <b>FastAPI · Docker · ML</b><br/>
+    🧠 Intereses: <b>Deep Learning & Minería de Datos</b><br/>
+    ⚡ Stack: <b>Python · Java · Oracle SQL</b>
+  </samp>
 </td>
-<td width="30%" align="center">
-  <img src="https://media.giphy.com/media/juua9i2c2fA0AIp2iq/giphy.gif" width="130" alt="AI Robot"/>
+<td align="center" width="50%">
+  <img width="470" src="https://github-readme-stats.vercel.app/api?username=Brasther&show_icons=true&theme=transparent&bg_color=0d1117&title_color=22d3ee&text_color=94a3b8&icon_color=a78bfa&ring_color=22d3ee&border_color=30363d&border_radius=15&include_all_commits=true&count_private=true&custom_title=%F0%9F%93%8A_ESTAD%C3%8DSTICAS" alt="stats" />
 </td>
 </tr>
 </table>
 
+<br/>
+
+<table align="center" width="100%">
+<tr>
+<td align="center" width="50%">
+  <img width="470" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Brasther&layout=compact&theme=transparent&bg_color=0d1117&title_color=22d3ee&text_color=94a3b8&border_color=30363d&border_radius=15&langs_count=6&custom_title=%F0%9F%92%BB_LENGUAJES" alt="langs" />
+</td>
+<td align="center" width="50%">
+  <img width="470" src="https://streak-stats.demolab.com/?user=Brasther&theme=transparent&background=0D1117&ring=22D3EE&fire=FB8C00&currStreakNum=FFFFFF&sideNums=22D3EE&currStreakLabel=22D3EE&sideLabels=94A3B8&dates=94A3B8&stroke=30363D&border_radius=15" alt="streak" />
+</td>
+</tr>
+</table>
+
+<br/>
+
+<div align="center">
+  <img width="960" src="https://github-readme-activity-graph.vercel.app/graph?username=Brasther&bg_color=0d1117&color=22d3ee&line=a78bfa&point=34d399&area=true&hide_border=true&custom_title=Actividad%20Reciente&title_color=22d3ee" alt="activity graph" />
 </div>
 
 <br/>
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Brasther&theme=onedark&no-frame=true&margin-w=12&column=7&row=1" alt="trophies" />
+</div>
+
+<br/>
+
+<!-- ==================== STACK ==================== -->
 
 <h3 align="center"><samp>🛠️ STACK TECNOLÓGICO</samp></h3>
 
@@ -90,58 +96,20 @@ En mi perfil encontrarás proyectos que combinan la robustez del desarrollo back
 
 <br/>
 
-<h3 align="center"><samp>📈 ESTADÍSTICAS</samp></h3>
-
-<div align="center">
-  <a href="https://github.com/Brasther">
-    <img height="180" src="https://github-readme-stats.vercel.app/api?username=Brasther&show_icons=true&theme=transparent&bg_color=0d1117&title_color=22d3ee&text_color=94a3b8&icon_color=a78bfa&ring_color=22d3ee&border_color=30363d&border_radius=15&include_all_commits=true&count_private=true&hide_title=true" alt="stats graph" />
-  </a>
-  <a href="https://github.com/Brasther">
-    <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Brasther&layout=compact&theme=transparent&bg_color=0d1117&title_color=22d3ee&text_color=94a3b8&border_color=30363d&border_radius=15&langs_count=6&hide_title=true" alt="languages graph" />
-  </a>
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com/?user=Brasther&theme=transparent&background=0D1117&ring=22D3EE&fire=FB8C00&currStreakNum=FFFFFF&sideNums=22D3EE&currStreakLabel=22D3EE&sideLabels=94A3B8&dates=94A3B8&stroke=30363D&border_radius=15&hide_border=true" alt="streak graph" />
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Brasther&bg_color=0d1117&color=22d3ee&line=a78bfa&point=34d399&area=true&hide_border=true&custom_title=Actividad%20Reciente&title_color=22d3ee" alt="activity graph" />
-</div>
-
-<br/>
-
-<h3 align="center"><samp>🏆 LOGROS</samp></h3>
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Brasther&theme=onedark&no-frame=true&margin-w=12&column=7&row=1" alt="trophies" />
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="frase del día" />
-</div>
-
 <!-- ⬇️ Plantilla para destacar repositorios (cambia los nombres) ⬇️
-<br/>
-<h3 align="center"><samp>📌 PROYECTOS DESTACADOS</samp></h3>
-<div align="center">
-  <a href="https://github.com/Brasther/NOMBRE_DEL_REPO">
-    <img height="140" src="https://github-readme-stats.vercel.app/api/pin/?username=Brasther&repo=NOMBRE_DEL_REPO&theme=transparent&bg_color=0d1117&title_color=22d3ee&text_color=94a3b8&icon_color=a78bfa&border_color=30363d&border_radius=15" />
-  </a>
-  <a href="https://github.com/Brasther/OTRO_REPO">
-    <img height="140" src="https://github-readme-stats.vercel.app/api/pin/?username=Brasther&repo=OTRO_REPO&theme=transparent&bg_color=0d1117&title_color=22d3ee&text_color=94a3b8&icon_color=a78bfa&border_color=30363d&border_radius=15" />
-  </a>
-</div>
+<table align="center" width="100%">
+<tr>
+<td align="center" width="50%">
+  <img width="470" src="https://github-readme-stats.vercel.app/api/pin/?username=Brasther&repo=NOMBRE_DEL_REPO&theme=transparent&bg_color=0d1117&title_color=22d3ee&text_color=94a3b8&icon_color=a78bfa&border_color=30363d&border_radius=15" />
+</td>
+<td align="center" width="50%">
+  <img width="470" src="https://github-readme-stats.vercel.app/api/pin/?username=Brasther&repo=OTRO_REPO&theme=transparent&bg_color=0d1117&title_color=22d3ee&text_color=94a3b8&icon_color=a78bfa&border_color=30363d&border_radius=15" />
+</td>
+</tr>
+</table>
 -->
 
 <!-- ⬇️ Para activar la serpiente, agrega el workflow de Platane/snk ⬇️
-<h3 align="center"><samp>🐍 CONTRIBUCIONES</samp></h3>
 <div align="center">
   <img src="https://raw.githubusercontent.com/Brasther/Brasther/output/snake.svg" alt="snake" />
 </div>
@@ -149,7 +117,11 @@ En mi perfil encontrarás proyectos que combinan la robustez del desarrollo back
 
 <br/>
 
-<h3 align="center"><samp>🌐 CONÉCTATE CONMIGO</samp></h3>
+<div align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="frase del día" />
+</div>
+
+<br/>
 
 <div align="center">
   <a href="mailto:sebastiansalamanca274@gmail.com">
