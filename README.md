@@ -151,15 +151,15 @@
 
 <p align="center"><samp>Módulos certificados por Duoc UC</samp></p>
 <p align="center">
-  <img src="https://img.shields.io/badge/Inteligencia_de_Negocios-0d1117?style=flat-square&color=1e293b&logoColor=white" />
-  <img src="https://img.shields.io/badge/Programación_de_Software-0d1117?style=flat-square&color=1e293b" />
-  <img src="https://img.shields.io/badge/Arquitectura_de_Software-0d1117?style=flat-square&color=1e293b" />
-  <img src="https://img.shields.io/badge/Análisis_y_Desarrollo_de_Modelos_de_Datos-0d1117?style=flat-square&color=1e293b" />
+  <img src="https://img.shields.io/static/v1?label=&message=Inteligencia+de+Negocios&color=1e293b&style=flat-square" />
+  <img src="https://img.shields.io/static/v1?label=&message=Programaci%C3%B3n+de+Software&color=1e293b&style=flat-square" />
+  <img src="https://img.shields.io/static/v1?label=&message=Arquitectura+de+Software&color=1e293b&style=flat-square" />
+  <img src="https://img.shields.io/static/v1?label=&message=An%C3%A1lisis+y+Desarrollo+de+Modelos+de+Datos&color=1e293b&style=flat-square" />
   <br/>
-  <img src="https://img.shields.io/badge/Calidad_de_Software-0d1117?style=flat-square&color=1e293b" />
-  <img src="https://img.shields.io/badge/Gestión_de_Proyectos_Informáticos-0d1117?style=flat-square&color=1e293b" />
-  <img src="https://img.shields.io/badge/Análisis_y_Planificación_de_Requerimientos-0d1117?style=flat-square&color=1e293b" />
-  <img src="https://img.shields.io/badge/Inglés_Intermedio_Alto-0d1117?style=flat-square&color=1e293b" />
+  <img src="https://img.shields.io/static/v1?label=&message=Calidad+de+Software&color=1e293b&style=flat-square" />
+  <img src="https://img.shields.io/static/v1?label=&message=Gesti%C3%B3n+de+Proyectos+Inform%C3%A1ticos&color=1e293b&style=flat-square" />
+  <img src="https://img.shields.io/static/v1?label=&message=An%C3%A1lisis+y+Planificaci%C3%B3n+de+Requerimientos&color=1e293b&style=flat-square" />
+  <img src="https://img.shields.io/static/v1?label=&message=Ingl%C3%A9s+Intermedio+Alto&color=1e293b&style=flat-square" />
 </p>
 
 <br/>
@@ -180,7 +180,12 @@
 
 <p align="center"><samp>IA & Ciencia de Datos</samp></p>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn,pandas,numpy,jupyter&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn&theme=dark" />
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
+  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" />
 </p>
 
 <p align="center"><samp>Bases de Datos</samp></p>
@@ -193,7 +198,9 @@
 
 <p align="center"><samp>Herramientas & DevOps</samp></p>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=git,github,linux,docker,render,vscode,postman,playwright,vitest&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=git,github,linux,docker,vscode,postman,vitest&theme=dark" />
+  <img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black" />
+  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white" />
 </p>
 
 <br/>
@@ -214,7 +221,7 @@
 <br/>
 
 <div align="center">
-  <img width="960" src="https://github-readme-activity-graph.vercel.app/graph?username=Brasther&bg_color=0d1117&color=22d3ee&line=a78bfa&point=34d399&area=true&hide_border=true&custom_title=Actividad%20Reciente&title_color=22d3ee" alt="activity graph" />
+  <img width="960" src="https://github-readme-activity-graph.vercel.app/graph?username=Brasther&theme=github-dark&hide_border=true&area=true" alt="activity graph" />
 </div>
 
 <br/>
