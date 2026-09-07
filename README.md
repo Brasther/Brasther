@@ -63,7 +63,7 @@
   </samp>
 </td>
 <td align="center" valign="top" width="50%">
-  <samp><b><a href="https://anyshirt.cl">👕 AnyShirt</a></b> · Práctica Profesional 2025</samp>
+  <samp><b><a href="https://anyshirt.cl">👕 AnyShirt</a></b> · Práctica Profesional 2026</samp>
   <br/>
   <sub>E-commerce de poleras personalizadas con personalización DTF y diseño 3D. Desarrollo completo en solitario: frontend y backend. En producción en <a href="https://anyshirt.cl">anyshirt.cl</a>.</sub>
   <br/><br/>
@@ -130,7 +130,7 @@
 <table align="center" width="90%">
 <tr align="center">
   <td><samp><b>Lial Services</b></samp><br/><sub>Intranet corporativa</sub><br/><sub>jun 2026 – sep 2026</sub></td>
-  <td><samp><b>AnyShirt</b></samp><br/><sub>Práctica Profesional</sub><br/><sub>2025</sub></td>
+  <td><samp><b>AnyShirt</b></samp><br/><sub>Práctica Profesional</sub><br/><sub>2026</sub></td>
   <td><samp><b>AulaTrack</b></samp><br/><sub>Capstone en equipo</sub><br/><sub>2025</sub></td>
   <td><samp><b>Turbus</b></samp><br/><sub>Cajero</sub><br/><sub>1 año 3 meses</sub></td>
 </tr>
