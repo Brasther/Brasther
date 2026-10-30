@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/profile-banner.svg" alt="Sebastián Salamanca · Ingeniero en Informática · Desarrollo web, móvil y datos" width="100%" />
+  <picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/profile-banner.svg" /><img src="assets/profile-banner.gif" alt="Sebastián Salamanca · Ingeniero en Informática · Desarrollo web, móvil y datos" width="100%" /></picture>
   <br /><br />
   <p>Desarrollo aplicaciones web y móviles.</p>
   <p>Titulado de <b>Duoc UC</b>, con certificación en <b>Ciencia de Datos</b>.</p>
@@ -21,14 +21,14 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-  <a href="https://github.com/Brasther/Flutter_Shop"><img src="assets/project-flutter.svg" alt="Flutter Shop · Tienda multiplataforma con Flutter, Firebase y Stripe" width="100%" /></a>
+  <a href="https://github.com/Brasther/Flutter_Shop"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/project-flutter.svg" /><img src="assets/project-flutter.gif" alt="Ilustración animada de Flutter Shop · Tienda multiplataforma con Flutter, Firebase y Stripe" width="100%" /></picture></a>
   <p>Tienda con catálogo, carrito y administración. Backend en Firebase con validación de inventario e integración de pagos.</p>
   <p><code>Flutter</code> <code>Dart</code> <code>Firebase</code> <code>Stripe</code></p>
   <p><a href="https://github.com/Brasther/Flutter_Shop#readme">Código</a></p>
   <p><sub>Demo de catálogo; los pagos requieren configurar el backend.</sub></p>
 </td>
 <td width="50%" valign="top">
-  <a href="https://github.com/Brasther/sentinel-discord-bot"><img src="assets/project-sentinel.svg" alt="Sentinel · Observación de audio y moderación para Discord" width="100%" /></a>
+  <a href="https://github.com/Brasther/sentinel-discord-bot"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/project-sentinel.svg" /><img src="assets/project-sentinel.gif" alt="Ilustración animada de Sentinel · Observación de audio y moderación para Discord" width="100%" /></picture></a>
   <p>Bot de Discord que analiza audio localmente y muestra la actividad de voz en un panel web.</p>
   <p><code>Python</code> <code>Flask</code> <code>DSP</code> <code>Socket.IO</code></p>
   <p><a href="https://github.com/Brasther/sentinel-discord-bot#readme">Código</a> · <a href="https://github.com/Brasther/sentinel-discord-bot#vista-del-panel">Ver panel</a></p>
@@ -37,14 +37,14 @@
 </tr>
 <tr>
 <td width="50%" valign="top">
-  <a href="https://github.com/Brasther/Poyecto-Rocket-2.0-Django"><img src="assets/project-rocket.svg" alt="Rocket Tracking · Prototipo de seguimiento de envíos en Django" width="100%" /></a>
+  <a href="https://github.com/Brasther/Poyecto-Rocket-2.0-Django"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/project-rocket.svg" /><img src="assets/project-rocket.gif" alt="Ilustración animada de Rocket Tracking · Prototipo de seguimiento de envíos en Django" width="100%" /></picture></a>
   <p>Prototipo de seguimiento de envíos con autenticación, validación en servidor y control de permisos.</p>
   <p><code>Django</code> <code>SQLite</code> <code>Bootstrap</code> <code>Webpay</code></p>
   <p><a href="https://github.com/Brasther/Poyecto-Rocket-2.0-Django#readme">Código</a></p>
   <p><sub>Proyecto académico; pagos en el entorno de integración de Transbank.</sub></p>
 </td>
 <td width="50%" valign="top">
-  <a href="https://anyshirt.cl"><img src="assets/project-anyshirt.svg" alt="AnyShirt · Tienda de poleras personalizadas · Práctica profesional" width="100%" /></a>
+  <a href="https://anyshirt.cl"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/project-anyshirt.svg" /><img src="assets/project-anyshirt.gif" alt="Ilustración animada de AnyShirt · Tienda de poleras personalizadas · Práctica profesional" width="100%" /></picture></a>
   <p>Desarrollo de frontend y backend de una tienda de poleras personalizadas, con personalización DTF y diseño 3D.</p>
   <p><a href="https://anyshirt.cl">Sitio web</a></p>
   <p><sub>Práctica profesional · 2026.</sub></p>
