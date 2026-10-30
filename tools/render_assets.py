@@ -1,7 +1,9 @@
-"""Build local profile animations. These are illustrations, not app recordings."""
+"""Build the profile header from real screenshots and illustrated project covers."""
 from __future__ import annotations
 
 import argparse
+import base64
+from functools import lru_cache
 from html import escape
 from io import BytesIO
 import math
@@ -20,39 +22,57 @@ def doc(width, height, title, body):
     return f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-labelledby="title"><title id="title">{escape(title)}</title><g font-family="{FONT}">{body}</g></svg>'
 
 
+@lru_cache(maxsize=2)
+def screenshot_uri(name):
+    path = ASSETS / 'screenshots' / name
+    mime = 'image/jpeg' if path.suffix == '.jpg' else 'image/png'
+    return f'data:{mime};base64,' + base64.b64encode(path.read_bytes()).decode('ascii')
+
+
+def preview_window(key, x, y, width, height, instance):
+    title = 'Flutter Shop' if key == 'flutter' else 'Sentinel · panel demo'
+    source = screenshot_uri('flutter-shop.jpg' if key == 'flutter' else 'sentinel-demo.png')
+    clip_id = f'window-{instance}'
+    crop = '0 0 1280 720' if key == 'flutter' else '115 0 1040 700'
+    image_height = 720 if key == 'flutter' else 1440
+    return f'''<defs><clipPath id="{clip_id}"><rect x="{x+7}" y="{y+31}" width="{width-14}" height="{height-38}" rx="5"/></clipPath></defs>
+    <rect x="{x+2}" y="{y+8}" width="{width}" height="{height}" rx="13" fill="#080d17" opacity=".55"/>
+    <rect x="{x}" y="{y}" width="{width}" height="{height}" rx="12" fill="#161e2c" stroke="#3c4c64"/>
+    <circle cx="{x+17}" cy="{y+16}" r="3" fill="#a4aec0"/>
+    <circle cx="{x+29}" cy="{y+16}" r="3" fill="#657791"/>
+    <circle cx="{x+41}" cy="{y+16}" r="3" fill="#657791"/>
+    <text x="{x+60}" y="{y+20}" fill="#c5d1e4" font-size="11">{title}</text>
+    <g clip-path="url(#{clip_id})"><svg x="{x+7}" y="{y+31}" width="{width-14}" height="{height-38}" viewBox="{crop}" preserveAspectRatio="xMidYMin slice"><image href="{source}" x="0" y="0" width="1280" height="{image_height}"/></svg></g>'''
+
+
+def smoothstep(value):
+    value = min(1, max(0, value))
+    return value * value * (3 - 2 * value)
+
+
 def hero(t):
-    angle = TAU * t
-    dots = []
-    for i in range(170):
-        y = 1 - 2 * (i + .5) / 170
-        radius = math.sqrt(1 - y * y)
-        theta = i * math.pi * (3 - math.sqrt(5)) + angle
-        x, z = radius * math.cos(theta), radius * math.sin(theta)
-        rx = x * .94 - y * .34
-        ry = x * .34 + y * .94
-        depth = (z + 1) / 2
-        px, py = 936 + 146 * rx, 188 + 146 * ry
-        size = 1 + 1.8 * depth
-        color = '#8be4ed' if i % 3 else '#b1a3ff'
-        opacity = .17 + .75 * depth
-        dots.append((z, f'<circle cx="{px:.2f}" cy="{py:.2f}" r="{size:.2f}" fill="{color}" opacity="{opacity:.3f}"/>'))
-    sphere = ''.join(item for _, item in sorted(dots))
-    light_x = 930
-    light_y = 188
+    if .35 < t < .5:
+        blend = smoothstep((t - .35) / .15)
+    elif .5 <= t < .85:
+        blend = 1
+    elif t >= .85:
+        blend = 1 - smoothstep((t - .85) / .15)
+    else:
+        blend = 0
+    first = preview_window('sentinel', 617, 40, 490, 278, 'a-rear') + preview_window('flutter', 660, 135, 490, 278, 'a-front')
+    second = preview_window('flutter', 617, 40, 490, 278, 'b-rear') + preview_window('sentinel', 660, 135, 490, 278, 'b-front')
     body = f'''<defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111a2b"/><stop offset="1" stop-color="#0c1220"/></linearGradient>
     <linearGradient id="name" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#c3b4ff"/><stop offset="1" stop-color="#8cd9ed"/></linearGradient>
-    <radialGradient id="light"><stop stop-color="#5d56bd" stop-opacity=".24"/><stop offset=".5" stop-color="#385577" stop-opacity=".13"/><stop offset="1" stop-color="#172337" stop-opacity="0"/></radialGradient>
-    <clipPath id="frame"><rect width="1200" height="380" rx="22"/></clipPath>
+    <clipPath id="frame"><rect width="1200" height="430" rx="22"/></clipPath>
     </defs><g clip-path="url(#frame)">
-    <rect width="1200" height="380" fill="url(#bg)"/>
-    <ellipse cx="{light_x:.2f}" cy="{light_y:.2f}" rx="400" ry="300" fill="url(#light)"/>
-    <text x="60" y="131" fill="#f2f4fb" font-size="70" font-weight="700" letter-spacing="-2">Sebastián</text>
-    <text x="58" y="214" fill="url(#name)" font-size="76" font-weight="700" letter-spacing="-2">Salamanca</text>
-    <text x="62" y="270" fill="#ccd6e8" font-size="25">Ingeniero en Informática</text>
-    <text x="63" y="315" fill="#8e9fbb" font-size="17">Santiago, Chile</text>
-    {sphere}</g>'''
-    return doc(1200, 380, 'Sebastián Salamanca · Ingeniero en Informática · Santiago, Chile', body)
+    <rect width="1200" height="430" fill="url(#bg)"/>
+    <text x="55" y="145" fill="#f2f4fb" font-size="65" font-weight="700" letter-spacing="-2">Sebastián</text>
+    <text x="53" y="225" fill="url(#name)" font-size="71" font-weight="700" letter-spacing="-2">Salamanca</text>
+    <text x="57" y="283" fill="#ccd6e8" font-size="24">Ingeniero en Informática</text>
+    <text x="58" y="328" fill="#8e9fbb" font-size="17">Santiago, Chile</text>
+    <g opacity="{1-blend:.4f}">{first}</g><g opacity="{blend:.4f}">{second}</g></g>'''
+    return doc(1200, 430, 'Sebastián Salamanca · Ingeniero en Informática · Flutter Shop y Sentinel', body)
 
 
 def flutter_art(t):
@@ -116,6 +136,8 @@ def render_animation(name, scene, frames, duration, preview):
             (ASSETS / f'{name}.svg').write_text(svg + '\n', encoding='utf-8')
         image = Image.open(BytesIO(resvg_py.svg_to_bytes(svg_string=svg))).convert('RGBA')
         images.append(image)
+        if i == 0 and name == 'profile-banner':
+            image.save(ASSETS / 'profile-banner.png')
     rgb = []
     for image in images:
         background = Image.new('RGB', image.size, '#0d1117')
@@ -161,13 +183,16 @@ def main():
     parser.add_argument('--frames', type=int, default=80)
     parser.add_argument('--duration', type=int, default=100, help='Milliseconds per frame')
     parser.add_argument('--preview-dir', type=Path)
+    parser.add_argument('--only', choices=['all', 'header', 'projects'], default='all')
     args = parser.parse_args()
     if args.frames < 10 or args.duration < 50:
         parser.error('Use at least 10 frames and 50 ms per frame.')
     ASSETS.mkdir(exist_ok=True)
-    render_animation('profile-banner', hero, args.frames, args.duration, args.preview_dir)
-    for key in PROJECTS:
-        render_animation(key, lambda t, key=key: project(key, t), args.frames, args.duration, args.preview_dir)
+    if args.only in ('all', 'header'):
+        render_animation('profile-banner', hero, args.frames, args.duration, args.preview_dir)
+    if args.only in ('all', 'projects'):
+        for key in PROJECTS:
+            render_animation(key, lambda t, key=key: project(key, t), args.frames, args.duration, args.preview_dir)
 
 
 if __name__ == '__main__':
