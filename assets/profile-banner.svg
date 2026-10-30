@@ -1,31 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title description">
-  <title id="title">Sebastián Salamanca — Ingeniero en Informática</title>
-  <desc id="description">Portafolio de desarrollo web, aplicaciones móviles y Ciencia de Datos. Santiago, Chile.</desc>
-  <defs>
-    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0c1526"/>
-      <stop offset="1" stop-color="#182a42"/>
-    </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#63e6d0"/>
-      <stop offset="1" stop-color="#70b7ff"/>
-    </linearGradient>
-  </defs>
-  <rect width="1200" height="300" rx="20" fill="url(#background)"/>
-  <rect x="42" y="42" width="44" height="4" rx="2" fill="url(#accent)"/>
-  <g font-family="Segoe UI, Arial, sans-serif">
-    <text x="100" y="49" fill="#b2c4db" font-size="14" letter-spacing="3">BRASTHER / PORTAFOLIO</text>
-    <text x="42" y="128" fill="#f5f8ff" font-size="51" font-weight="700">Sebastián Salamanca</text>
-    <text x="44" y="175" fill="#71e1d1" font-size="27">Ingeniero en Informática</text>
-    <text x="44" y="216" fill="#c2d1e3" font-size="19">Desarrollo web · Aplicaciones móviles · Ciencia de Datos</text>
-    <text x="44" y="267" fill="#8fa7c1" font-size="14" letter-spacing="2">DUOC UC · SANTIAGO, CHILE</text>
-    <rect x="945" y="66" width="190" height="168" rx="16" fill="#0c1829" stroke="#34516c"/>
-    <circle cx="967" cy="89" r="4" fill="#63e6d0"/>
-    <circle cx="983" cy="89" r="4" fill="#70b7ff"/>
-    <circle cx="999" cy="89" r="4" fill="#9aaed0"/>
-    <path d="M 962 108 H 1118" stroke="#2c4560"/>
-    <text x="975" y="181" font-size="49" font-weight="600" fill="#70d7df" font-family="Consolas, monospace">&lt;/&gt;</text>
-    <path d="M 976 206 H 1020 M 1030 206 H 1100" stroke="#345b7a" stroke-width="4" stroke-linecap="round"/>
-  </g>
-  <rect x="42" y="288" width="1094" height="3" rx="1.5" fill="url(#accent)"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title"><title id="title">Sebastián Salamanca · Ingeniero en Informática · Duoc UC · Ciencia de Datos · Santiago, Chile</title><defs><clipPath id="frame"><rect width="1200" height="360" rx="24"/></clipPath></defs><g clip-path="url(#frame)" font-family="Segoe UI, Arial, sans-serif"><defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#141829"/><stop offset="1" stop-color="#0c111d"/></linearGradient><linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#9a83ff"/><stop offset="1" stop-color="#50d9e8"/></linearGradient><radialGradient id="glow"><stop stop-color="#9a83ff" stop-opacity=".24"/><stop offset="1" stop-color="#9a83ff" stop-opacity="0"/></radialGradient><pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#c5cbea" stroke-opacity=".035"/></pattern></defs><rect x="1" y="1" width="1198" height="358" rx="24" fill="url(#bg)" stroke="#30374b"/>
+<rect x="1" y="1" width="1198" height="358" rx="24" fill="url(#grid)"/>
+<ellipse cx="960" cy="170" rx="340" ry="300" fill="url(#glow)"/>
+<path d="M820 0L650 360M1140 0L970 360" stroke="#9d8aff" stroke-opacity=".08"/>
+<rect x="60" y="43" width="28" height="3" rx="1.5" fill="#aa94ff"/>
+<text x="100" y="50" font-size="13" fill="#bac3d7" letter-spacing="3">DESARROLLO WEB · MÓVIL · DATOS</text>
+<text x="58" y="139" fill="#f5f5fc" font-size="68" font-weight="700" letter-spacing="-2">Sebastián</text>
+<text x="58" y="211" fill="url(#accent)" font-size="68" font-weight="700" letter-spacing="-2">Salamanca.</text>
+<text x="62" y="255" fill="#ced5e4" font-size="23">Ingeniero en Informática</text>
+<g font-size="12" font-weight="600" letter-spacing="1"><rect x="60" y="291" width="106" height="29" rx="14.5" fill="#20263d" stroke="#3e4060"/><text x="80" y="310" fill="#c4b6ff">DUOC UC</text><rect x="178" y="291" width="174" height="29" rx="14.5" fill="#152c35" stroke="#284751"/><text x="198" y="310" fill="#7cdfdf">CIENCIA DE DATOS</text><text x="376" y="310" fill="#9ba8bf">SANTIAGO, CHILE</text></g>
+<g transform="translate(814 74)"><circle cx="145" cy="105" r="129" fill="none" stroke="#7462ba" stroke-opacity=".25" stroke-dasharray="3 9"/><circle cx="145" cy="105" r="108" fill="none" stroke="#8174bd" stroke-opacity=".2"/><rect x="0" y="8" width="290" height="198" rx="16" fill="#111726" stroke="#474364"/><path d="M0 47H290" stroke="#34354c"/><circle cx="23" cy="28" r="4" fill="#aa8ffc"/><circle cx="39" cy="28" r="4" fill="#74cedd"/><circle cx="55" cy="28" r="4" fill="#4f5a73"/><text x="192" y="32" fill="#718098" font-size="11" letter-spacing="2">BRASTHER</text><text x="25" y="83" font-size="15" font-family="Consolas, monospace" fill="#bc9df7">const developer = {</text><text x="43" y="113" font-size="14" font-family="Consolas, monospace" fill="#a9b6d0">web: <tspan fill="#6cd7d7">true</tspan>,</text><text x="43" y="141" font-size="14" font-family="Consolas, monospace" fill="#a9b6d0">mobile: <tspan fill="#6cd7d7">true</tspan>,</text><text x="43" y="169" font-size="14" font-family="Consolas, monospace" fill="#a9b6d0">data: <tspan fill="#6cd7d7">true</tspan></text><text x="25" y="191" font-size="15" font-family="Consolas, monospace" fill="#bc9df7">};</text><circle cx="289" cy="192" r="7" fill="#69d5db" stroke="#111726" stroke-width="4"/></g></g></svg>

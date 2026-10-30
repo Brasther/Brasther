@@ -1,91 +1,116 @@
 <div align="center">
-  <img src="assets/profile-banner.svg" alt="Sebastián Salamanca · Ingeniero en Informática · Desarrollo web, aplicaciones móviles y Ciencia de Datos" width="100%" />
-
-  <p><a href="#proyectos-seleccionados">Proyectos</a> · <a href="#experiencia">Experiencia</a> · <a href="#formación">Formación</a> · <a href="#contacto">Contacto</a></p>
+  <img src="assets/profile-banner.svg" alt="Sebastián Salamanca · Ingeniero en Informática · Desarrollo web, móvil y datos" width="100%" />
+  <br /><br />
+  <p><b>Desarrollo aplicaciones web y móviles, conectando interfaces, lógica de negocio y datos.</b></p>
+  <p>Ingeniero titulado de <b>Duoc UC</b> · Certificación en <b>Ciencia de Datos</b> · Santiago, Chile</p>
+  <br />
+  <a href="https://linkedin.com/in/sebastian-salamanca"><img src="assets/contact-linkedin.svg" alt="Conectar en LinkedIn" height="42" /></a>
+  &nbsp;
+  <a href="mailto:sebastiansalamanca274@gmail.com"><img src="assets/contact-email.svg" alt="Escribir a sebastiansalamanca274@gmail.com" height="42" /></a>
+  &nbsp;
+  <a href="https://github.com/Brasther?tab=repositories"><img src="assets/contact-github.svg" alt="Ver mis repositorios en GitHub" height="42" /></a>
+  <br /><br />
+  <p><a href="#proyectos-destacados">Proyectos</a> &nbsp; / &nbsp; <a href="#tecnologias">Tecnologías</a> &nbsp; / &nbsp; <a href="#experiencia">Experiencia</a> &nbsp; / &nbsp; <a href="#formacion">Formación</a></p>
 </div>
 
-Soy **Sebastián Salamanca**, ingeniero en Informática titulado de **Duoc UC**, con certificación en **Ciencia de Datos**. Estoy en Santiago, Chile.
+<br />
 
-Desarrollo aplicaciones web y móviles. En mis proyectos públicos trabajo con Python, Django, Flask y Flutter: desde gestión académica y seguimiento de envíos hasta comercio electrónico y procesamiento de audio. Me interesa conectar interfaces, lógica de negocio y datos en aplicaciones que se puedan instalar, explorar y entender.
+<a name="proyectos-destacados"></a>
+<h2 align="center">Proyectos destacados</h2>
+<p align="center">Una selección de aplicaciones, prototipos y trabajo profesional.</p>
 
-## Proyectos seleccionados
+<table>
+<tr>
+<td width="50%" valign="top">
+  <a href="https://github.com/Brasther/Flutter_Shop"><img src="assets/project-flutter.svg" alt="Flutter Shop · Tienda multiplataforma con Flutter, Firebase y Stripe" width="100%" /></a>
+  <p>Catálogo, favoritos, carrito y administración. Backend con Cloud Functions, validación de inventario e integración de pagos.</p>
+  <p><code>Flutter</code> <code>Dart</code> <code>Firebase</code> <code>Stripe</code></p>
+  <p><a href="https://github.com/Brasther/Flutter_Shop#readme"><b>Explorar proyecto ↗</b></a></p>
+  <p><sub>Modo invitado para explorar el catálogo. Los pagos requieren configurar el backend.</sub></p>
+</td>
+<td width="50%" valign="top">
+  <a href="https://github.com/Brasther/sentinel-discord-bot"><img src="assets/project-sentinel.svg" alt="Sentinel · Observación de audio y moderación para Discord" width="100%" /></a>
+  <p>Análisis local de señales de audio, detección de voz y calibración por ambiente, con un panel web en tiempo real.</p>
+  <p><code>Python</code> <code>Flask</code> <code>DSP</code> <code>Socket.IO</code></p>
+  <p><a href="https://github.com/Brasther/sentinel-discord-bot#readme"><b>Explorar proyecto ↗</b></a> · <a href="https://github.com/Brasther/sentinel-discord-bot#vista-del-panel">Ver panel</a></p>
+  <p><sub>Demo local disponible. La detección es heurística y puede producir falsos positivos.</sub></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+  <a href="https://github.com/Brasther/Poyecto-Rocket-2.0-Django"><img src="assets/project-rocket.svg" alt="Rocket Tracking · Prototipo de seguimiento de envíos en Django" width="100%" /></a>
+  <p>Creación y seguimiento de envíos con autenticación, validación en servidor y vistas protegidas por permisos.</p>
+  <p><code>Django</code> <code>SQLite</code> <code>Bootstrap</code> <code>Webpay</code></p>
+  <p><a href="https://github.com/Brasther/Poyecto-Rocket-2.0-Django#readme"><b>Explorar proyecto ↗</b></a></p>
+  <p><sub>Prototipo académico. El flujo de pago utiliza el entorno de integración de Transbank.</sub></p>
+</td>
+<td width="50%" valign="top">
+  <a href="https://anyshirt.cl"><img src="assets/project-anyshirt.svg" alt="AnyShirt · Tienda de poleras personalizadas · Práctica profesional" width="100%" /></a>
+  <p>Desarrollo de frontend y backend de una tienda de poleras personalizadas, con personalización DTF y diseño 3D.</p>
+  <p><code>E-commerce</code> <code>Frontend</code> <code>Backend</code></p>
+  <p><a href="https://anyshirt.cl"><b>Visitar sitio ↗</b></a></p>
+  <p><sub>Práctica profesional · 2026.</sub></p>
+</td>
+</tr>
+</table>
 
-### [Flutter Shop](https://github.com/Brasther/Flutter_Shop)
+<br />
 
-**Tienda multiplataforma con Flutter, Firebase y Stripe.**
+<a name="tecnologias"></a>
+<h2 align="center">Tecnologías</h2>
+<p align="center">Herramientas utilizadas en mis proyectos públicos y experiencia corporativa.</p>
+<p align="center">
+  <img src="assets/skills/python.svg" alt="Python" height="44" />
+  <img src="assets/skills/django.svg" alt="Django" height="44" />
+  <img src="assets/skills/flask.svg" alt="Flask" height="44" />
+  <img src="assets/skills/flutter.svg" alt="Flutter" height="44" />
+  <img src="assets/skills/dart.svg" alt="Dart" height="44" />
+  <img src="assets/skills/firebase.svg" alt="Firebase" height="44" />
+  <img src="assets/skills/react.svg" alt="React" height="44" />
+  <img src="assets/skills/laravel.svg" alt="Laravel" height="44" />
+  <img src="assets/skills/javascript.svg" alt="JavaScript" height="44" />
+  <img src="assets/skills/sqlite.svg" alt="SQLite" height="44" />
+  <img src="assets/skills/git.svg" alt="Git" height="44" />
+  <img src="assets/skills/actions.svg" alt="GitHub Actions" height="44" />
+</p>
+<p align="center"><sub>Python y Flutter en proyectos públicos · Laravel, React y Tailwind en la intranet corporativa · NumPy, SciPy y WebRTC VAD en Sentinel</sub></p>
 
-- Catálogo, búsqueda, favoritos, carrito y herramientas de administración.
-- Cloud Functions para validar precios, inventario y pagos; reglas de acceso en Firestore.
-- Modo invitado para explorar el catálogo de demostración y automatización con GitHub Actions.
+<br />
 
-**Tecnologías:** Dart · Flutter · Firebase Authentication · Firestore · Cloud Functions · Stripe
+<a name="experiencia"></a>
+<h2 align="center">Experiencia</h2>
 
-[Ver código e instalación](https://github.com/Brasther/Flutter_Shop#readme)
+| Período | Proyecto y contribución |
+| :--- | :--- |
+| **Jun – sep 2026** | **Lial Services · Intranet corporativa**<br />Visualización de documentos PDF, OCR y experiencia móvil mediante PWA. Laravel, React y Tailwind; pruebas con Playwright y Vitest. |
+| **2026** | **AnyShirt · Práctica profesional**<br />Desarrollo de frontend y backend de una tienda de productos personalizados. |
+| **2025** | **AulaTrack · Proyecto de titulación en equipo**<br />Digitalización del libro de clases: roles, cursos, asistencia, notas, anotaciones e informes PDF. Python y Django; la versión pública actual usa SQLite y es un prototipo académico. |
 
-> Los pagos y pedidos requieren configurar el backend. El modo demo permite explorar el catálogo sin presentar pagos simulados como operaciones reales.
+<br />
 
-### [Sentinel](https://github.com/Brasther/sentinel-discord-bot)
+<a name="formacion"></a>
+<h2 align="center">Formación</h2>
+<table width="100%">
+<tr>
+<td width="50%" align="center" valign="top">
+  <br /><img src="assets/degree-icon.svg" width="52" alt="Título profesional" />
+  <h3>Ingeniería en Informática</h3>
+  <p>Duoc UC · Titulado, 2026</p>
+</td>
+<td width="50%" align="center" valign="top">
+  <br /><img src="assets/data-icon.svg" width="52" alt="Certificación" />
+  <h3>Ciencia de Datos</h3>
+  <p>Certificación · Duoc UC</p>
+</td>
+</tr>
+</table>
 
-**Bot de Discord para observar audio y apoyar la moderación de canales de voz.**
+<br />
 
-- Procesamiento local de señales, detección de actividad de voz y calibración por ambiente.
-- Panel web con niveles por usuario, ajustes y eventos en tiempo real.
-- Demo del panel con datos simulados e instalación guiada para Windows.
-
-**Tecnologías:** Python · discord.py · NumPy · SciPy · WebRTC VAD · Flask · Socket.IO · SQLite
-
-[Ver código y captura del panel](https://github.com/Brasther/sentinel-discord-bot#vista-del-panel) · [Guía de instalación](https://github.com/Brasther/sentinel-discord-bot/blob/main/docs/INSTALACION_WINDOWS.md)
-
-> La detección es heurística y puede producir falsos positivos. Incluye un modo de observación para revisar el comportamiento antes de activar medidas automáticas.
-
-### [Rocket Tracking](https://github.com/Brasther/Poyecto-Rocket-2.0-Django)
-
-**Prototipo académico para crear envíos y consultar su seguimiento.** Incluye autenticación, validación en servidor, vistas con permisos y un flujo de pago Webpay Plus en entorno de integración.
-
-**Tecnologías:** Python · Django · SQLite · JavaScript · Bootstrap · Transbank SDK
-
-[Ver código e instalación](https://github.com/Brasther/Poyecto-Rocket-2.0-Django#readme)
-
-## Experiencia
-
-**Lial Services · Intranet corporativa**
-
-Junio – septiembre de 2026
-
-Desarrollo de una intranet con visualización de documentos PDF, OCR y experiencia móvil mediante PWA. Trabajo con Laravel, React y Tailwind, y pruebas con Playwright y Vitest.
-
-**AnyShirt · Práctica profesional**
-
-2026
-
-Desarrollo de frontend y backend de una tienda de poleras personalizadas, con personalización DTF y diseño 3D.
-
-[Visitar AnyShirt](https://anyshirt.cl)
-
-**AulaTrack · Proyecto de titulación en equipo**
-
-2025
-
-Sistema de gestión académica para digitalizar el libro de clases: usuarios y roles, cursos, asistencia, notas, anotaciones e informes PDF. Desarrollado con Python y Django; la versión pública actual utiliza SQLite y se presenta como prototipo académico.
-
-## Tecnologías en mis proyectos
-
-| Área | Tecnologías y contexto |
-| --- | --- |
-| Backend web | Python, Django y Flask en Rocket Tracking, AulaTrack y Sentinel |
-| Aplicaciones móviles y web | Flutter y Dart en Flutter Shop |
-| Interfaces web | JavaScript, HTML y CSS; React y Tailwind en experiencia corporativa |
-| Persistencia y servicios | SQLite, Firebase Authentication y Cloud Firestore |
-| Audio y datos numéricos | NumPy, SciPy y WebRTC VAD en Sentinel |
-| Herramientas | Git, GitHub Actions; Playwright y Vitest en la intranet corporativa |
-
-## Formación
-
-- **Ingeniería en Informática · Duoc UC.** Titulado, 2026.
-- **Certificación en Ciencia de Datos · Duoc UC.** Formación complementaria a mis proyectos de desarrollo de software.
-
-## Contacto
-
-Puedes escribirme para conversar sobre mis proyectos y oportunidades de desarrollo de software.
-
-[LinkedIn](https://linkedin.com/in/sebastian-salamanca) · [Correo](mailto:sebastiansalamanca274@gmail.com) · [GitHub](https://github.com/Brasther)
+<div align="center">
+  <h3>Conversemos</h3>
+  <p>Para conocer más de mis proyectos o conversar sobre oportunidades de desarrollo de software.</p>
+  <p><a href="https://linkedin.com/in/sebastian-salamanca">LinkedIn</a> &nbsp; · &nbsp; <a href="mailto:sebastiansalamanca274@gmail.com">sebastiansalamanca274@gmail.com</a></p>
+  <br />
+  <img src="assets/profile-footer.svg" alt="Sebastián Salamanca · Brasther · Santiago, Chile" width="100%" />
+</div>
