@@ -1,5 +1,5 @@
 <div align="center">
-  <picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/profile-banner.png" /><img src="assets/profile-banner.gif" alt="Sebastián Salamanca · Ingeniero en Informática · Capturas de Flutter Shop y del panel demo de Sentinel" width="100%" /></picture>
+  <picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/profile-banner.png" /><img src="assets/profile-banner.gif" alt="Sebastián Salamanca · Ingeniero en Informática · Capturas de Flutter Shop, Sentinel, Rocket Tracking y AnyShirt" width="100%" /></picture>
   <br /><br />
   <p>Desarrollo aplicaciones web y móviles.</p>
   <p>Titulado de <b>Duoc UC</b>, con certificación en <b>Ciencia de Datos</b>.</p>

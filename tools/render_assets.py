@@ -22,19 +22,34 @@ def doc(width, height, title, body):
     return f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-labelledby="title"><title id="title">{escape(title)}</title><g font-family="{FONT}">{body}</g></svg>'
 
 
-@lru_cache(maxsize=2)
+@lru_cache(maxsize=4)
 def screenshot_uri(name):
     path = ASSETS / 'screenshots' / name
     mime = 'image/jpeg' if path.suffix == '.jpg' else 'image/png'
     return f'data:{mime};base64,' + base64.b64encode(path.read_bytes()).decode('ascii')
 
 
+CAPTURES = {
+    'flutter': ('Flutter Shop', 'flutter-shop.jpg', None),
+    'sentinel': ('Sentinel · panel demo', 'sentinel-demo.png', '115 0 1040 700'),
+    'rocket': ('Rocket Tracking · prototipo', 'rocket-tracking.jpg', None),
+    'anyshirt': ('AnyShirt', 'anyshirt.jpg', None),
+}
+CAPTURE_ORDER = tuple(CAPTURES)
+
+
+@lru_cache(maxsize=4)
+def screenshot_size(name):
+    with Image.open(ASSETS / 'screenshots' / name) as image:
+        return image.size
+
+
 def preview_window(key, x, y, width, height, instance):
-    title = 'Flutter Shop' if key == 'flutter' else 'Sentinel · panel demo'
-    source = screenshot_uri('flutter-shop.jpg' if key == 'flutter' else 'sentinel-demo.png')
+    title, filename, crop = CAPTURES[key]
+    source = screenshot_uri(filename)
+    image_width, image_height = screenshot_size(filename)
     clip_id = f'window-{instance}'
-    crop = '0 0 1280 720' if key == 'flutter' else '115 0 1040 700'
-    image_height = 720 if key == 'flutter' else 1440
+    crop = crop or f'0 0 {image_width} {image_height}'
     return f'''<defs><clipPath id="{clip_id}"><rect x="{x+7}" y="{y+31}" width="{width-14}" height="{height-38}" rx="5"/></clipPath></defs>
     <rect x="{x+2}" y="{y+8}" width="{width}" height="{height}" rx="13" fill="#080d17" opacity=".55"/>
     <rect x="{x}" y="{y}" width="{width}" height="{height}" rx="12" fill="#161e2c" stroke="#3c4c64"/>
@@ -42,7 +57,7 @@ def preview_window(key, x, y, width, height, instance):
     <circle cx="{x+29}" cy="{y+16}" r="3" fill="#657791"/>
     <circle cx="{x+41}" cy="{y+16}" r="3" fill="#657791"/>
     <text x="{x+60}" y="{y+20}" fill="#c5d1e4" font-size="11">{title}</text>
-    <g clip-path="url(#{clip_id})"><svg x="{x+7}" y="{y+31}" width="{width-14}" height="{height-38}" viewBox="{crop}" preserveAspectRatio="xMidYMin slice"><image href="{source}" x="0" y="0" width="1280" height="{image_height}"/></svg></g>'''
+    <g clip-path="url(#{clip_id})"><svg x="{x+7}" y="{y+31}" width="{width-14}" height="{height-38}" viewBox="{crop}" preserveAspectRatio="xMidYMin slice"><image href="{source}" x="0" y="0" width="{image_width}" height="{image_height}"/></svg></g>'''
 
 
 def smoothstep(value):
@@ -51,16 +66,14 @@ def smoothstep(value):
 
 
 def hero(t):
-    if .35 < t < .5:
-        blend = smoothstep((t - .35) / .15)
-    elif .5 <= t < .85:
-        blend = 1
-    elif t >= .85:
-        blend = 1 - smoothstep((t - .85) / .15)
-    else:
-        blend = 0
-    first = preview_window('sentinel', 617, 40, 490, 278, 'a-rear') + preview_window('flutter', 660, 135, 490, 278, 'a-front')
-    second = preview_window('flutter', 617, 40, 490, 278, 'b-rear') + preview_window('sentinel', 660, 135, 490, 278, 'b-front')
+    phase = (t % 1) * len(CAPTURE_ORDER)
+    index = int(phase)
+    blend = smoothstep((phase - index - .75) / .25)
+    current = CAPTURE_ORDER[index]
+    upcoming = CAPTURE_ORDER[(index + 1) % len(CAPTURE_ORDER)]
+    following = CAPTURE_ORDER[(index + 2) % len(CAPTURE_ORDER)]
+    first = preview_window(upcoming, 617, 40, 490, 278, 'a-rear') + preview_window(current, 660, 135, 490, 278, 'a-front')
+    second = preview_window(following, 617, 40, 490, 278, 'b-rear') + preview_window(upcoming, 660, 135, 490, 278, 'b-front')
     body = f'''<defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111a2b"/><stop offset="1" stop-color="#0c1220"/></linearGradient>
     <linearGradient id="name" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#c3b4ff"/><stop offset="1" stop-color="#8cd9ed"/></linearGradient>
@@ -72,7 +85,7 @@ def hero(t):
     <text x="57" y="283" fill="#ccd6e8" font-size="24">Ingeniero en Informática</text>
     <text x="58" y="328" fill="#8e9fbb" font-size="17">Santiago, Chile</text>
     <g opacity="{1-blend:.4f}">{first}</g><g opacity="{blend:.4f}">{second}</g></g>'''
-    return doc(1200, 430, 'Sebastián Salamanca · Ingeniero en Informática · Flutter Shop y Sentinel', body)
+    return doc(1200, 430, 'Sebastián Salamanca · Ingeniero en Informática · Flutter Shop, Sentinel, Rocket Tracking y AnyShirt', body)
 
 
 def flutter_art(t):
@@ -130,11 +143,17 @@ def project(key, t):
 
 def render_animation(name, scene, frames, duration, preview):
     images = []
+    previous_svg = None
+    previous_image = None
     for i in range(frames):
         svg = scene(i / frames)
         if i == 0:
             (ASSETS / f'{name}.svg').write_text(svg + '\n', encoding='utf-8')
-        image = Image.open(BytesIO(resvg_py.svg_to_bytes(svg_string=svg))).convert('RGBA')
+        if svg == previous_svg:
+            image = previous_image
+        else:
+            image = Image.open(BytesIO(resvg_py.svg_to_bytes(svg_string=svg))).convert('RGBA')
+        previous_svg, previous_image = svg, image
         images.append(image)
         if i == 0 and name == 'profile-banner':
             image.save(ASSETS / 'profile-banner.png')
@@ -173,7 +192,7 @@ def render_animation(name, scene, frames, duration, preview):
                     transparency=255, background=255, disposal=1, optimize=False)
     if preview:
         preview.mkdir(parents=True, exist_ok=True)
-        for i in (0, frames//4, frames//2):
+        for i in (0, frames//4, frames//2, 3*frames//4):
             images[i].save(preview / f'{name}-{i}.png')
     print(f'{name}: {frames} frames, {target.stat().st_size / 1024:.0f} KB', flush=True)
 
@@ -182,14 +201,15 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--frames', type=int, default=80)
     parser.add_argument('--duration', type=int, default=100, help='Milliseconds per frame')
+    parser.add_argument('--header-frames', type=int, default=160, help='Header frames: default 16-second loop')
     parser.add_argument('--preview-dir', type=Path)
     parser.add_argument('--only', choices=['all', 'header', 'projects'], default='all')
     args = parser.parse_args()
-    if args.frames < 10 or args.duration < 50:
+    if args.frames < 10 or args.header_frames < 10 or args.duration < 50:
         parser.error('Use at least 10 frames and 50 ms per frame.')
     ASSETS.mkdir(exist_ok=True)
     if args.only in ('all', 'header'):
-        render_animation('profile-banner', hero, args.frames, args.duration, args.preview_dir)
+        render_animation('profile-banner', hero, args.header_frames, args.duration, args.preview_dir)
     if args.only in ('all', 'projects'):
         for key in PROJECTS:
             render_animation(key, lambda t, key=key: project(key, t), args.frames, args.duration, args.preview_dir)
